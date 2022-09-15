@@ -1,0 +1,268 @@
+* {
+    /* box */
+    margin: 0;
+    border: 0;
+}
+
+
+/* <header> */
+
+.spanBtn {
+    color: #FFFFFF;
+}
+
+.spanLink {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.box {
+    /* box */
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 45px;
+    /* position */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.link1 {
+    /* box */
+    width: 50px;
+    height: 30px;
+    /* position */
+    float: right;
+    border: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    /* font e text */
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    /* color e backgroud */
+    background-color: #FFFFFF;
+}
+
+.link2 {
+    /* box */
+    width: 50px;
+    height: 30px;
+    /* position */
+    float: right;
+    padding-right: 25px;
+    padding-top: 10px;
+    /* font e text */
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    /* color e backgroud */
+    background-color: #FFFFFF
+}
+
+.option {
+    /* box */
+    width: 50px;
+    height: 30px;
+    /* position */
+    float: right;
+    padding-top: 14px;
+    /* color e backgroud */
+    background-color: #FFFFFF
+}
+
+.btn {
+    /* box */
+    width: 120px;
+    height: 30px;
+    /* position */
+    float: right;
+    border-radius: 5px;
+    padding-top: 7px;
+    margin-top: 5px;
+    /* font e text */
+    color: #FFFFFF;
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    line-height: 24px;
+    background-color: rgb(0, 102, 204);
+}
+
+.btn:hover {
+    background: rgb(0, 0, 153);
+    box-shadow: inset 0 0 0 3px #000099;
+}
+
+.boxWhite {
+    /* box */
+    width: 25px;
+    height: 5px;
+    /* position */
+    float: right;
+    /* color e backgroud */
+    background-color: #FFFFFF
+}
+
+
+/* </header> */
+
+
+/*  <section> */
+
+section {
+    /* box */
+    width: 600px;
+    height: 300px;
+    /* position */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    /* color e backgroud */
+    background-color: #FFFFFF;
+}
+
+.box1 {
+    /* box */
+    height: 92px;
+    width: 272px;
+    max-width: 100%;
+    max-height: 100%;
+    /* position */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+}
+
+.box2 {
+    /* box */
+    height: 39px;
+    width: 560px;
+    /* position */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    /* color e backgroud */
+    border: #DADCE0;
+    background-color: #ECF0F1;
+}
+
+.imgPes {
+    /* position */
+    margin-right: auto;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.search {
+    margin-left: 30px;
+    width: 100%;
+    background-color: #ECF0F1;
+    font-size: 30px;
+    outline: none;
+    border-radius: 20px;
+}
+
+.box3 {
+    /* box */
+    height: 36px;
+    width: 141px;
+    /* position */
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4 {
+    /* box */
+    height: 36px;
+    width: 141px;
+    /* position */
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxBtn {
+    /* box */
+    width: 38vh;
+    height: 5vh;
+    /* position */
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.btnSection {
+    /* color e backgroud */
+    border: 1px solid #DADCE0;
+    background-color: #F8F9FA;
+    color: #202124;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    font-weight: 27px;
+    text-decoration: none solid rgb(32, 33, 36);
+    text-align: center;
+    white-space: pre;
+    word-spacing: 0px;
+    cursor: pointer;
+    /* position */
+    padding: 10px;
+}
+
+
+/*  </section> */
+
+
+/*  <footer> */
+
+footer {
+    background-color: #ECF0F1;
+    width: 100%;
+    height: 95px;
+    margin-top: 240px;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+}
+
+.boxFooter1 {
+    background-color: #ECF0F1;
+    width: 100%;
+    height: 49px;
+    display: block;
+}
+
+.boxFooter2 {
+    display: flex;
+    border-top: 1px solid #D0D3D4;
+}
+
+.spanFooter {
+    /* font e text */
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-decoration: none solid rgb(112, 117, 122);
+    word-spacing: 0px;
+    color: #797D7F;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
+}
